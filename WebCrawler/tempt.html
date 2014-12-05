@@ -1,0 +1,469 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#">
+<head>
+ <title>Digg - Registration - Digg</title>
+ <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="keywords"
+       content="Digg, Digg.com, news, images, videos, vote, content" />
+ <link rel="search" type="application/opensearchdescription+xml"
+       href="/opensearch.xml" title="Digg search" />
+<meta name="description" content="Digg is a place for people to discover and share content from anywhere on the web. From the biggest online destinations to the most obscure blog, Digg surfaces the best stuff as voted on by our users" />
+ <style type="text/css" media="all">@import "/css/173/global.css";</style>
+ <style type="text/css" media="all">@import "/css/173/registration.css";</style>
+ <!--[if lte IE 6]><style type="text/css" media="all">@import "/css/173/ie6.css";</style><![endif]-->
+ <!--[if IE 7]><style type="text/css" media="all">@import "/css/173/ie7.css";</style><![endif]-->
+ <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<script src="http://media.digg.com/js/loader/173/jquery|Class|analytics|lightbox|label|jquery-dom|jquery-cookie" type="text/javascript"></script>
+<script src="http://media.digg.com/js/loader/173/dialog|digg|shouts|UserPrefixSearch|lbshare|StoredAction" type="text/javascript"></script>
+<script src="http://media.digg.com/js/loader/173/jquery-validate|jquery-register|jquery-cookie|App_Login,login|App_Register,almostThere" type="text/javascript"></script>
+<!-- digg is up 959595-->
+<script type="text/javascript" src="http://Ads1.msn.com/library/dap.js"></script>
+<script type="text/javascript">aHash = "anonymous"; </script>
+<script type="text/javascript" src="http://digg.com/token/loader/?rp=%2Fregister%2F"></script>
+</head>
+<body>
+<script type="text/javascript">D.analytics = new Object(); D.analytics.enabled = "1";</script>
+<!-- Start Quantcast tag -->
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<script type="text/javascript">_qacct="p-34Iv4_7kv_i-6";quantserve();</script>
+<noscript>
+<a href="http://www.quantcast.com/p-34Iv4_7kv_i-6" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-34Iv4_7kv_i-6.gif" style="display: none" border="0" height="1" width="1" alt="Quantcast"/></a>
+</noscript>
+<!-- End Quantcast tag -->
+<div id="container"><div id="h" class="header-simple"><h1><a href="/">digg</a></h1><a href="/register" class="header-join">Join Digg</a><a href="/about" class="header-about">About</a><a href="/login" id="header-login" class="header-login">Login</a><script type="text/javascript"> $j(document).trigger('loginLoaded', null);</script><div class="side-header"><form action="/search" method="get" id="search" onsubmit="topsearch()" ><label for="top-keywords" accesskey="2" class="inside">Search Digg...</label><input type="hidden" name="section" value="all" /><input type="text" name="s" id="top-keywords" value="" /><input type="image" id="top-submit" src="/img/search.gif" alt="Search" /></form> </div><div id="h-sec"><ul><li><a href="/">&#171; Home</a></li></ul></div></div><div id="userNotify"></div>
+<div id="contents">
+    <div id="wrapper">
+<div class="reg-form">
+    
+    <div class="form-register">
+        <h2>Become a member of Digg</h2>
+         
+        <div class="reg-section login-register">
+            <h3>Start a new account</h3>
+<h4>Join Digg</h4>
+<form action="/register/" name="digg" method="POST">
+    <div class="dialog-section">
+        <p class="first">
+            Digg is a place to discover and share the best of the web. 
+            Start Digging, submitting and commenting by creating an account &ndash; it only takes a minute.
+            <a href="/tour">Learn more...</a>
+        </p>
+
+        <script type="text/javascript" charset="UTF-8">
+if (typeof tokens == 'undefined') tokens = new Object();
+if (!tokens.validate) tokens.validate = new Object();
+tokens.validate.usernameAvailable = "8c25e6ba5c30268943f8e6b3400ca1d1";
+tokens.validate.emailAvailable = "de373663ed5fa7173d8472175e80952c";
+tokens.validate.password = "251bf40e0a3637fbb785a277345b328f";
+</script>        <script type="text/javascript" charset="utf-8">/* <![CDATA[ */
+            var info = {
+                    'password\\[b\\]' : 'Type in your password again for verification purposes.',
+                                                            'username' : "Minimum 4 characters, maximum 15 characters. This is your handle on Digg so choose carefully!",                                                                                'password\\[a\\]' : "Must be at least 6 characters long.", 
+                                                                                'email' : "Don't worry, your email will never be shared.",                                                                                'birthday' : "",                                                                                'captcha' : "captcha note",                                                                                'newsletter' : ""                                                
+            };
+                        
+            $j(document).bind('registerFormLoaded', null, function() {
+                $j('.dialog .continue').click(function() {
+                    $j(this).val('Please wait, processing...').attr('disabled', 'disabled');
+                    $j(this).parents('form').submit();
+
+                    return false;
+                }); 
+            });
+                
+            
+        // ]]>
+        </script>
+
+        <div class="form-row">
+            <label class="dialog-label" for="username">Choose a username (no spaces)</label>
+            <input name="username" class="register-input narrow text username" type="text" value="" />
+                            <div class="form-note note-username">&nbsp;</div>
+                    </div>
+
+        <div class="form-row">
+            <label class="dialog-label" for="password">Choose a password</label>
+            <input type="password" class="register-input text password[a]" name="password[a]" />
+                            <div class="form-note note-password[a]">&nbsp;</div>
+                    </div>
+
+        <div class="form-row">
+            <label class="dialog-label" for="verify">Retype password</label>
+            <input type="password" class="register-input text password[b]" name="password[b]" />
+            <div class="form-note note-password[b]">&nbsp;</div>
+        </div>
+
+        <div class="form-row">
+            <label class="dialog-label" for="email">Email address (must be real!)</label>
+            <input type="text" class="register-input text email" name="email" value=""/>
+                            <div class="form-note note-email">&nbsp;</div>
+                    </div>
+ 
+        <div class="form-row">
+            <input type="checkbox" checked="checked" name="newsletter" /> 
+            <label class="inline" for="newsletter">Send me occasional Digg updates.</label>
+        </div>
+
+        <div class="form-row">
+            <label class="dialog-label" >Birthday (required for legal reasons)</label>
+                        <select name="birthday[Month]">
+<option label="month" value="" selected="selected">month</option>
+<option label="January" value="01">January</option>
+<option label="February" value="02">February</option>
+<option label="March" value="03">March</option>
+<option label="April" value="04">April</option>
+<option label="May" value="05">May</option>
+<option label="June" value="06">June</option>
+<option label="July" value="07">July</option>
+<option label="August" value="08">August</option>
+<option label="September" value="09">September</option>
+<option label="October" value="10">October</option>
+<option label="November" value="11">November</option>
+<option label="December" value="12">December</option>
+</select>
+<select name="birthday[Day]">
+<option label="day" value="" selected="selected">day</option>
+<option label="01" value="1">01</option>
+<option label="02" value="2">02</option>
+<option label="03" value="3">03</option>
+<option label="04" value="4">04</option>
+<option label="05" value="5">05</option>
+<option label="06" value="6">06</option>
+<option label="07" value="7">07</option>
+<option label="08" value="8">08</option>
+<option label="09" value="9">09</option>
+<option label="10" value="10">10</option>
+<option label="11" value="11">11</option>
+<option label="12" value="12">12</option>
+<option label="13" value="13">13</option>
+<option label="14" value="14">14</option>
+<option label="15" value="15">15</option>
+<option label="16" value="16">16</option>
+<option label="17" value="17">17</option>
+<option label="18" value="18">18</option>
+<option label="19" value="19">19</option>
+<option label="20" value="20">20</option>
+<option label="21" value="21">21</option>
+<option label="22" value="22">22</option>
+<option label="23" value="23">23</option>
+<option label="24" value="24">24</option>
+<option label="25" value="25">25</option>
+<option label="26" value="26">26</option>
+<option label="27" value="27">27</option>
+<option label="28" value="28">28</option>
+<option label="29" value="29">29</option>
+<option label="30" value="30">30</option>
+<option label="31" value="31">31</option>
+</select>
+<select name="birthday[Year]">
+<option label="year" value="" selected="selected">year</option>
+<option label="2009" value="2009">2009</option>
+<option label="2008" value="2008">2008</option>
+<option label="2007" value="2007">2007</option>
+<option label="2006" value="2006">2006</option>
+<option label="2005" value="2005">2005</option>
+<option label="2004" value="2004">2004</option>
+<option label="2003" value="2003">2003</option>
+<option label="2002" value="2002">2002</option>
+<option label="2001" value="2001">2001</option>
+<option label="2000" value="2000">2000</option>
+<option label="1999" value="1999">1999</option>
+<option label="1998" value="1998">1998</option>
+<option label="1997" value="1997">1997</option>
+<option label="1996" value="1996">1996</option>
+<option label="1995" value="1995">1995</option>
+<option label="1994" value="1994">1994</option>
+<option label="1993" value="1993">1993</option>
+<option label="1992" value="1992">1992</option>
+<option label="1991" value="1991">1991</option>
+<option label="1990" value="1990">1990</option>
+<option label="1989" value="1989">1989</option>
+<option label="1988" value="1988">1988</option>
+<option label="1987" value="1987">1987</option>
+<option label="1986" value="1986">1986</option>
+<option label="1985" value="1985">1985</option>
+<option label="1984" value="1984">1984</option>
+<option label="1983" value="1983">1983</option>
+<option label="1982" value="1982">1982</option>
+<option label="1981" value="1981">1981</option>
+<option label="1980" value="1980">1980</option>
+<option label="1979" value="1979">1979</option>
+<option label="1978" value="1978">1978</option>
+<option label="1977" value="1977">1977</option>
+<option label="1976" value="1976">1976</option>
+<option label="1975" value="1975">1975</option>
+<option label="1974" value="1974">1974</option>
+<option label="1973" value="1973">1973</option>
+<option label="1972" value="1972">1972</option>
+<option label="1971" value="1971">1971</option>
+<option label="1970" value="1970">1970</option>
+<option label="1969" value="1969">1969</option>
+<option label="1968" value="1968">1968</option>
+<option label="1967" value="1967">1967</option>
+<option label="1966" value="1966">1966</option>
+<option label="1965" value="1965">1965</option>
+<option label="1964" value="1964">1964</option>
+<option label="1963" value="1963">1963</option>
+<option label="1962" value="1962">1962</option>
+<option label="1961" value="1961">1961</option>
+<option label="1960" value="1960">1960</option>
+<option label="1959" value="1959">1959</option>
+<option label="1958" value="1958">1958</option>
+<option label="1957" value="1957">1957</option>
+<option label="1956" value="1956">1956</option>
+<option label="1955" value="1955">1955</option>
+<option label="1954" value="1954">1954</option>
+<option label="1953" value="1953">1953</option>
+<option label="1952" value="1952">1952</option>
+<option label="1951" value="1951">1951</option>
+<option label="1950" value="1950">1950</option>
+<option label="1949" value="1949">1949</option>
+<option label="1948" value="1948">1948</option>
+<option label="1947" value="1947">1947</option>
+<option label="1946" value="1946">1946</option>
+<option label="1945" value="1945">1945</option>
+<option label="1944" value="1944">1944</option>
+<option label="1943" value="1943">1943</option>
+<option label="1942" value="1942">1942</option>
+<option label="1941" value="1941">1941</option>
+<option label="1940" value="1940">1940</option>
+<option label="1939" value="1939">1939</option>
+<option label="1938" value="1938">1938</option>
+<option label="1937" value="1937">1937</option>
+<option label="1936" value="1936">1936</option>
+<option label="1935" value="1935">1935</option>
+<option label="1934" value="1934">1934</option>
+<option label="1933" value="1933">1933</option>
+<option label="1932" value="1932">1932</option>
+<option label="1931" value="1931">1931</option>
+<option label="1930" value="1930">1930</option>
+<option label="1929" value="1929">1929</option>
+<option label="1928" value="1928">1928</option>
+<option label="1927" value="1927">1927</option>
+<option label="1926" value="1926">1926</option>
+<option label="1925" value="1925">1925</option>
+<option label="1924" value="1924">1924</option>
+<option label="1923" value="1923">1923</option>
+<option label="1922" value="1922">1922</option>
+<option label="1921" value="1921">1921</option>
+<option label="1920" value="1920">1920</option>
+<option label="1919" value="1919">1919</option>
+</select>
+                            <div class="form-note note-birthday">&nbsp;</div>
+                    </div>
+
+        <div class="form-row">
+            <div class="dialog-captcha">
+                <label class="dialog-label" for="captcha[input]">Enter the text in the image</label>
+                <input type="text" name="captcha[input]" value="" class="register-input text captcha[input]"/>
+                <img src="/captcha/681f249192cf3619448abe3bf41d8461.jpg" width="220" height="50" class="captcha" alt="If you can't read this, try listening to the audio version or email support at digg.com for help." />
+                <span id="audiocaptchalink">Can&rsquo;t read the text?
+<a href="#" onclick='return D.captcha.generateAudio("/captcha/681f249192cf3619448abe3bf41d8461.mp3");'>Listen to it</a>
+</span><span id="playAudio"></span>
+                <input type="hidden" id="captcha[id]" name="captcha[id]" value="681f249192cf3619448abe3bf41d8461" />
+            </div>
+                            <div class="form-note note-captcha[input]">&nbsp;</div>
+                    </div>
+    </div>
+    <div class="dialog-tray">
+        <span>I agree to the <a href="/tou">Terms of Use</a> and <a href="/privacy">Privacy Policy</a></span>
+        <input type="submit" class="continue" value="I agree, continue..."/>
+    </div>
+</form>           
+        </div>
+        <div class="login-facebook" style="display: none;">
+            <p class="first">
+                <strong style="font-size: 105%;">Use your Facebook account to login to Digg</strong><br />
+                You'll also have the option to add your Facebook friends to Digg and post your Digg activity in your Facebook feed.
+            </p>
+            <p>
+                <input type="image" src="/img/login-fb-connect.gif" name="some_name" value="Connect to Facebook" class='facebookConnectLogin'/>
+            </p>
+            <div class="dialog-tray">
+                <button class="button-login-register" class="input-sec">Or, create a new account...</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" charset="utf-8">
+        $j(document).trigger('loginFormLoaded', null);
+    </script>
+    <div class="register-info">
+<h3>Why join Digg?</h3>
+<p>
+    Digg is a place to discover and share content from around the Web, from the smallest blog to major news outlets.
+    Everything is submitted and voted on by people like you. 
+</p>
+<ul class="register-why">
+    <li class="why-discover">Discover the best of the web</li>
+    <li class="why-digg">Promote stuff that you're into</li>
+    <li class="why-re">Find more stuff with our Recommendation Engine </li>
+    <li class="why-comment">Make your voice heard in the comments</li>
+    <li class="why-friends">Follow what your friends are Digging</li>
+    <li class="why-custom">Customize your Digg experience</li>
+</ul>
+<h3 style="padding-top: 1em;">Not ready to join?  Check out what's popular on Digg right now!</h3>
+<div class="side-container">
+    <div id="topten-list">
+        <script type="text/javascript">
+            $j.ajax({
+                'url' : '/tools/services',
+                'type' : 'get',
+                'dataType' : 'json',
+                'data' : {
+                    'type'     : 'json',
+                    'size'      : 'a',
+                    'endPoint'  : '/stories/popular',
+                    'media'     : 'all',
+                    'count'     : 5,
+                    'domain'    : ''
+                },
+                'success' : function(json) {
+                    $j.each(json.stories, function(i, item) {
+                        item.href = item.href + '';
+                    });
+
+                    D.topTen.update(json, 1, 0, 'topten-list');
+                }
+            });
+        </script>
+    </div>
+</div>
+    </div>
+</div>
+        <br style="clear: both;" />
+    </div> <!-- end #wrapper -->
+</div> <!-- end #content -->
+
+<div id="footer">
+    <div class="footer-contents"><div class="footer-contents2">
+        <div class="col">
+            <dl class="col-prime">
+            <dt>Site Links</dt>
+            <dd><a href="/">Home</a></dd>
+            <dd><a href="/tour">Take a Tour</a></dd>
+            <dd><a href="/search">Search Digg</a></dd>
+            <dd><a href="http://m.digg.com/">Digg Mobile</a> <!--(<a href="http://diggriver.com/">Basic Version</a>)--></dd>
+            <dd><a href="/about-rss">RSS Feeds</a></dd>
+            <dd><a href="/archive">Popular Archive</a></dd>
+            <dd><a href="/tou">Terms of Use</a>, <a href="/privacy">Privacy</a></dd>
+            </dl>
+            <dl>
+            <dt>Help</dt>
+            <dd><a href="/faq">Frequent Questions</a></dd>
+            <dd><a href="/how">How Digg Works</a></dd>
+            <dd><a href="/bugreport" class="menu-link">Report a Website Bug</a></dd>
+            </dl>
+        </div>
+        <div class="col">
+            <dl class="col-prime">
+            <dt>All About Digg</dt>
+            <dd><a href="/about" style="margin-right: 0.6em;">About Us</a></dd>
+            <dd><a href="/contact">Contact Us</a></dd>
+            <dd><a href="http://blog.digg.com">The Digg Blog</a></dd>
+            <dd><a href="/townhall">Digg Townhalls</a> &amp; <a href="/meetup">Meetups</a></dd>
+            <dd><a href="/jobs">Jobs at Digg</a></dd>
+            <dd><a href="http://advertising.microsoft.com/advertise/digg">Advertise on Digg</a></dd>
+            <dd><a href="http://www.diggnation.com/">Diggnation Podcast</a></dd>
+            </dl>
+            <dl>
+            <dt>Digg Store</dt>
+            <dd>Get hats, shirts, hoodies, stickers, and more at the <a href="http://shop.digg.com">Digg&nbsp;Store</a>.</dd>
+            </dl>
+        </div>
+        <div class="col">
+            <dl class="col-prime">
+            <dt>Digg Tools &amp; API</dt>
+            <dd><a href="/tools/">All Digg Tools</a></dd>
+            <dd style="margin-top: 1em;"><a href="/tools/firefox">Firefox Toolbar</a> <span class="new">New</span></dd>
+            <dd><a href="http://www.google.com/ig/adde?moduleurl=http://digg.com/goog/ig.xml&amp;source=dgfl">Add Digg to Google</a></dd>
+            <dd><a href="http://spread.flock.com/digg">Flock Web Browser</a></dd>
+            <dd><a href="http://www.myspace.com/Modules/PostTo/Pages/Default.aspx?c=%3Cembed%20src%3D%22http%3A%2F%2Ffiles.digg.com%2Fmyspace%2Ftop.swf%22%20width%3D%22315%22%20height%3D%22442%22%20wmode%3D%22transparent%22%20pluginspage%3D%22http%3A%2F%2Fwww.macromedia.com%2Fgo%2Fgetflashplayer%22%20type%3D%22application%2Fx-shockwave-flash%22%20%2F%3E">MySpace Widget</a></dd>
+            <dd><a href="http://www.netvibes.com/subscribe.php?module=DiggOfficial">Netvibes Widget</a></dd>
+            <dd><a href="/tools/integrate">Integrate Digg Buttons</a></dd>
+            <dd><a href="/tools/buttons">Digg Badges</a></dd>
+            <dd><a href="/add-digg">Make a Digg Widget</a></dd>
+            <dd style="margin-top: 1em;"><a href="http://apidoc.digg.com/">API for Developers</a></dd>
+            </dl>
+        </div>
+        <div class="col">
+            <dl class="col-prime">
+            <dt>Digg Dialogg!</dt>
+            <dd><a href="/dialogg/">Digg Dialogg</a> lets you choose the questions.</dd>
+            </dl>
+            <dl>
+            <dt>Digg Labs</dt>
+            <dd>Get a real-time view beneath the surface of Digg.</dd> 
+            <dd><a href="http://labs.digg.com/">Digg Labs Home</a></dd>
+            <dd><a href="http://labs.digg.com/arc">Arc</a>, <a href="http://labs.digg.com/swarm">Swarm</a>, <a href="http://labs.digg.com/stack">Stack</a>, <a href="http://labs.digg.com/bigspy">Bigspy</a>, <a href="http://labs.digg.com/pics">Pics</a></dd>
+            </dl>
+        </div>
+        <div class="col-last">
+
+<div id="P_TownhallFtr0126" class="promo"><dl>
+<dt>Digg Meetups &amp; Townhalls</dt>
+<dd>
+<img src="/img/feature-meetup.gif" alt="" width="130" height="140" style="float: right; margin: 0 -50px 10px 10px;" />
+Digg is coming to a city (and computer) near you! Check out all the details on our <a href="/meetup">Meetups</a> and &amp; <a href="/townhall">Townhall Webcasts</a>.
+
+<br /><br />
+<strong>Townhall Webcast</strong> - February 26, 2009<br />
+<strong>Austin Meetup at SXSW</strong> - March 14, 2009<br />
+<strong>Seattle Meetup</strong> - May 21, 2009<br />
+More Dates TBA 
+</dd>
+</dl>
+
+</div>
+
+        </div>
+    </div></div> <!-- end .footer-contents, .footer-contents2 -->
+    <br style="clear: both;" />
+</div> <!-- end #footer -->
+
+
+<div class="copyright"><div>
+    <img src="/img/little-digg.gif" width="40" height="40" alt="" /> &copy; Digg Inc. 2009 &#8212; Content posted by Digg users is <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">dedicated to the public domain</a>.
+    <br />
+    DIGG, DIGG IT, DUGG, DIGG THIS, Digg graphics, logos, designs, page headers, button icons, scripts, and other service names are the trademarks of Digg Inc.
+</div></div>
+
+<div id="submenu-news" class="menu submenu-drop" style="display: none">
+    <ul id="submenu-news-list"><li></li></ul>
+</div>
+
+<div id="submenu-videos" class="menu submenu-drop" style="display: none">
+    <ul id="submenu-videos-list"><li></li></ul>
+</div>
+    
+<script type="text/javascript">handleHover();</script><script type="text/javascript" src="/js/173/tooltip.js"></script><script type="text/javascript">var s_account = "diggcom";</script>
+<script src="/js/loader/173/omnidigg" type="text/javascript"></script>
+<script type="text/javascript"><!--
+s.prop9 = 'register';
+s.prop24 = 'register';
+s.prop29 = '';
+s.pageName = 'register:step1';
+s.prop21 = 'register';
+s.prop22 = 'register';
+s.prop23 = 'register';
+s.hier1 = 'register';
+s.prop14 = 'register';
+s.prop8 = 'anonymous';
+s.channel = 'digg.com';
+s.events = '';
+s.products = '';
+var s_code=s.t();
+if (s_code) document.write(s_code);
+//--></script>
+<script language="javascript" type="text/javascript" src="http://analytics.live.com/Analytics/msAnalytics.js">
+</script>
+<script language="javascript" type="text/javascript">
+msAnalytics.ServerId = 'digg';
+msAnalytics.ProfileId = 'C74C';
+msAnalytics.EnableLinkTimeout = false;
+msAnalytics.TrackPage();
+</script>
+<!-- digg is done serving you. 2.01355321270u 137.03599911 6.6742x10-11m3kg-1s-2 6.6742x10-11m3kg-1s-2 -->
+</body>
+</html>

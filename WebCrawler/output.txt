@@ -1,0 +1,6 @@
+==============================================
+==============================================
+Statistical Statements
+Number of bytes downloaded: 0
+Number of URLs in the crawling queue: 0
+Number of URLs parsed: 0
